@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="loc01"><![CDATA[Kijkgracht (south)]]></string>
+    <string name="loc02"><![CDATA[Zuidsingel (area A) ]]></string>
+    <string name="loc03"><![CDATA[Zuidsingel (area B)]]></string>
+    <string name="loc04a"><![CDATA[Waargracht (north)]]></string>
+    <string name="loc04b"><![CDATA[Waardgracht (south)]]></string>
+    <string name="loc04c"><![CDATA[Waardgracht (after Oosterkerkstraat)]]></string>
+    <string name="loc04d"><![CDATA[Waardgracht (after Groenesteeg)]]></string>
+    <string name="loc05"><![CDATA[Zuidsingel (area C)]]></string>
+    <string name="loc06"><![CDATA[Minnebroersgracht]]></string>
+    <string name="loc07"><![CDATA[Zuidsingel (area D)]]></string>
+    <string name="loc08a"><![CDATA[Oranjegracht (north)]]></string>
+    <string name="loc08b"><![CDATA[Oranjegracht (south)]]></string>
+    <string name="loc08c"><![CDATA[Oranjegracht (after Oosterkerkstraat)]]></string>
+    <string name="loc08d"><![CDATA[Oranjegracht (after Groenesteeg)]]></string>
+    <string name="loc09"><![CDATA[Kijkgracht (north deel)]]></string>
+    <string name="loc10a"><![CDATA[Binnenvestgracht (lakenplein)]]></string>
+    <string name="loc10b"><![CDATA[Binnenvestgracht (south)]]></string>
+    <string name="loc11a"><![CDATA[Binnenoostsingel (north)]]></string>
+    <string name="loc11b"><![CDATA[Binnenoostsingel (south)]]></string>
+    <string name="loc12"><![CDATA[Ankerparksloot]]></string>
+</resources>
