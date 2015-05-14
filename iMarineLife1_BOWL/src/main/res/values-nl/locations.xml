@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
-    <string name="loc01"><![CDATA[Kijkgracht (zuidelijk deel)]]></string>
+    <string name="loc01"><![CDATA[Kijfgracht (zuidelijk deel)]]></string>
     <string name="loc02"><![CDATA[Zuidsingel (deelgebied A) ]]></string>
     <string name="loc03"><![CDATA[Zuidsingel (deelgebied B)]]></string>
-    <string name="loc04a"><![CDATA[Waargracht (noordelijk deel)]]></string>
+    <string name="loc04a"><![CDATA[Waardgracht (noordelijk deel)]]></string>
     <string name="loc04b"><![CDATA[Waardgracht (zuidelijk deel)]]></string>
     <string name="loc04c"><![CDATA[Waardgracht (na Oosterkerkstraat)]]></string>
     <string name="loc04d"><![CDATA[Waardgracht (na Groenesteeg)]]></string>

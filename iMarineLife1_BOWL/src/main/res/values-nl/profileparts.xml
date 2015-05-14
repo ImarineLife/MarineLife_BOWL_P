@@ -2,7 +2,7 @@
 <resources>
     <string name="duikend"><![CDATA[Duikend]]></string>
     <string name="snorkelend"><![CDATA[Snorkelend]]></string>
-    <string name="wandelend"><![CDATA[Lopend]]></string>
+    <string name="wandelend"><![CDATA[Wandelend]]></string>
     <string name="watertemp"><![CDATA[Watertemperatuur]]></string>
     <string name="luchttemp"><![CDATA[Luchtemperatuur]]></string>
 </resources>

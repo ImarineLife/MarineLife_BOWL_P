@@ -10,7 +10,7 @@
     <string name="mail_body"><![CDATA[Sent from the iMarineLIfe App (NL Sweet BOWL Leiden)]]></string>
     <string name="mail_from">mailer.imarinelife@gmail.com</string>
     <string name="mail_from_password">D41k@ppj3</string>
-    <string name="mail_to"><![CDATA[bowl.waarnemingen@gmail.com,visreservaatleiden@gmail.com]]></string>
+    <string name="mail_to"><![CDATA[info@imarinelife.com, nielsschrieken@gmail.com,bowl.waarnemingen@gmail.com,visreservaatleiden@gmail.com]]></string>
     <string name="introduction"><![CDATA[The project \'Blik Onder Water Leiden\' brings the under water life of the Leiden canals under the attention of the public.\n\n\n
 iMarineLife supports BOWL with the \'NL Sweet IBOWL Leiden\' app that helps to recognize the fish that are present in the Leiden canals. This enthuses tourists and residents alike. \n\n\n
 The app supports snorkelers, documenting and presenting their findings in the Leiden canals. The snorkeldives are done under professional guidance.]]></string>
@@ -23,13 +23,14 @@ see any individuals\n\n\n
 Do not worry if you don\'t know if you saw or recognized the species. Then use:\n\n
    \t?\t\t- don\'t know\n\n\n
 It is very likely that you may spot a species that is not on the list. Please send a photo to  foto@imarinelife.com.]]></string>
-    <string name="thanks"><![CDATA[This version of the iMarineLife app was created with the cooperation of enthousiastic volunteers.\n\n
+    <string name="thanks"><![CDATA[This version of the iMarineLife app was created with the cooperation of enthousiastic volunteers.\n\n\n
 We thank the following people for:\n\n
 - donating photographs: Aaf Verkade, Silvia Waajen, Jef Driesen, Ellen Kop, Erik van Vessem, Berhold Raadsen en Wijnand Vlierhuis.\n\n
-- writing teksts: Niels Schrieken\n
-- building the app for Android: Marjon Roodzant\n
+- writing teksts: Niels Schrieken\n\n
+- building the app for Android: Marjon Roodzant\n\n
 - and the initiators: Aaf Verkade and Niels Schrieken. \n\n\n
-Aaf Verkade: www.blikonderwaterinleiden.nl\n\n\n
+Aaf Verkade: www.blikonderwaterinleiden.nl\n\n
 Niels Schrieken: www.biorganized.com\n\n
-Finally we would like to thank everyone for using iMarineLife and sending any sightings.]]></string>
+Finally we would like to thank everyone for using iMarineLife\n
+and sending in any sightings.]]></string>
 </resources>

@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="nl.imarinelife.bowl"
-    android:versionCode="12"
-    android:versionName="1.12" >
+    package="nl.imarinelife.bowl">
 
     <!-- Required to access Google Play Licensing -->
     <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
@@ -26,7 +24,7 @@
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <uses-sdk
-        android:minSdkVersion="8"
+        android:minSdkVersion="14"
         android:targetSdkVersion="22" />
 
     <application
@@ -54,22 +52,6 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="nl.imarinelife.lib.fieldguide.FieldGuideEntryPagerActivity"
-            android:label="@string/fieldguide"
-            android:launchMode="singleTask"
-            android:parentActivityName="nl.imarinelife.lib.MainActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="nl.imarinelife.lib.MainActivity" >
-            </meta-data>
-
-            <intent-filter>
-                <action android:name="nl.imarinelife.bowl.FIELDGUIDE_ENTRY" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-        <activity
             android:name="nl.imarinelife.lib.MainActivity"
             android:label="@string/fieldguide"
             android:windowSoftInputMode="adjustPan" >
@@ -90,13 +72,6 @@
             </intent-filter>
         </activity>
 
-        <!-- <receiver android:name="nl.imarinelife.lib.utility.events.LocaleChangeReceiver" >
-            <intent-filter>
-                <action android:name="android.intent.action.LOCALE_CHANGED" >
-                </action>
-            </intent-filter>
-        </receiver> -->
-        
     </application>
 
 </manifest>

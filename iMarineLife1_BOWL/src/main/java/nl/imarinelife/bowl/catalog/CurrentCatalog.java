@@ -75,7 +75,7 @@ public class CurrentCatalog extends Catalog {
 		}
 		
 		DATAVERSION_FIELDGUIDEANDSIGHTINGS = 4;
-		DATAVERSION_LOCATIONS = 2;
+		DATAVERSION_LOCATIONS = 3;
 		DATAVERSION_PROFILEPARTS = 5;
 
 		try {
@@ -403,7 +403,7 @@ public class CurrentCatalog extends Catalog {
 			int oldVersion, int newVersion){
 		switch (oldVersion) {
 		case 0:// do what needs to be done. like onUpgrade, to be implemented as fallthrough
-		case 1:
+		default:
 			Log.d(TAG,"onDataVersionUpgrade_Locations");
 			Catalog catalog = LibApp.getInstance().getCurrentCatalog();
 			if (catalog != null) {
