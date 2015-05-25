@@ -75,7 +75,7 @@ public class CurrentCatalog extends Catalog {
 		}
 		
 		DATAVERSION_FIELDGUIDEANDSIGHTINGS = 4;
-		DATAVERSION_LOCATIONS = 3;
+		DATAVERSION_LOCATIONS = 4;
 		DATAVERSION_PROFILEPARTS = 5;
 
 		try {
