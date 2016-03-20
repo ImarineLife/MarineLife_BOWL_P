@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
     <string name="pisces"><![CDATA[Fishes]]></string>
-    <string name="allgroups"><![CDATA[$pisces$]]></string>
+    <string name="other"><![CDATA[Other water animals]]></string>
+    <string name="allgroups"><![CDATA[$pisces$$other$]]></string>
 </resources>

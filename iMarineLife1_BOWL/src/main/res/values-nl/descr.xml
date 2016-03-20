@@ -1,60 +1,104 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
-    <string name="descr126281"><![CDATA[Slangachtig lichaam. \n\n
-Bovenstandige bek.\n\n
-Boven en onder vinzomen die uitlopen in staartpunt.]]></string>
-    <string name="descr151353"><![CDATA[Over lichaam lopen meerdere verticale, donkere banden.\n\n
-Twee gescheiden rugvinnen.\n\n
-In achterste vinstralen van voorste rugvin zit een zwarte vlek.]]></string>
-    <string name="descr154281"><![CDATA[Een hooggebouwde zijdelings afgeplatte vis.\n\n
-De oogdiameter is kleiner dan de afstand van het oog tot de bek.\n\n
-Bovenstandige bek die ver uitstulpbaar is.]]></string>
-    <string name="descr154333"><![CDATA[Eindstandige bek.\n\n
-Boven in oog een rode vlek.\n\n
-Voorzijde rugvin boven voorzijde buikvinnen.]]></string>
-    <string name="descr236462"><![CDATA[Voor de rugvin staan 2 tot 4 stekels.\n\n
-Rugen anaalvin staan ver naar achteren.\n\n
-Mannetjes in paaitijd een rode keel en buik en blauwe ogen.]]></string>
-    <string name="descr126915"><![CDATA[Grote, brede kop met gezwollen wangen en lippen. Bovenstandige bek.\n\n
-Buikvinnen aaneengegroeid tot een zuignap.\n\n
-Lichaam en kop roodbruin gemarmerd.]]></string>
-    <string name="descr154373"><![CDATA[6 korte bekdraden; 4 op de bovenlip en 2 in de hoeken van de bek.\n\n
-Op de flanken grote donkerbruine vlekken.\n\n
-Onder oog gevorkte stekel gericht naar de staart.]]></string>
-    <string name="descr154388"><![CDATA[Onder de kin 1 kindraad.\n\n
-2 gescheiden rugvinnen.\n\n
-Buikvinnen staan voor borstvinnen.]]></string>
-    <string name="descr126933"><![CDATA[De ogen staan hoog in de kop.\n\n
-De neusopeningen vormen korte buisjes.\n\n
-Twee gescheiden rugvinnen, waarvan de achterste rugvin een vinzoom is.]]></string>
-    <string name="descr126913"><![CDATA[De ogen staan hoog in de kop.\n\n
-De achterste rugvin en anaalvin lopen naar achteren schuin af.\n\n
-De vis is bleek van kleur met op de flanken licht blauwgrijze kleur met vage donkere vlekken.]]></string>
-    <string name="descr151302"><![CDATA[Het is de kleinste baarsachtigen die maximaal 14cm wirdt.\n\n
-Het lichaam, staarten rugvin is getekend met donkere vlekjes\n\n
-Het is een bodembewonende vis met voorkeur voor dieper water.]]></string>
-    <string name="descr127196"><![CDATA[De twee rugvinnen raken elkaar. De achterste rugvin is een stuk langer dan de voorste.\n\n
-Op het kieuwdeksel staan omhoog wijzende stekeltjes.\n\n
-Schubben ontbreken op de kop.]]></string>
-    <string name="descr154165"><![CDATA[Een bovenstandige bek.\n\n
-Voorzijde rugvin duidelijk achter voorzijde buikvinnen.\n\n
-Helder rode vinnen.]]></string>
-    <string name="descr154210"><![CDATA[Anaalvin en rugvin ver achterop lichaam.\n\n
-De kop loopt uit in een platte, brede bek.\n\n
-Het lichaam is met goudkleurige stippen of strepen getekend.]]></string>
-    <string name="descr151308"><![CDATA[De 2 rugvinnen zijn gescheiden.\n\n
-De bovenkaak loopt door tot achter het oog.\n\n
-Kieuwdeksels met een scherpe punt.]]></string>
-    <string name="descr126507"><![CDATA[Voor de rugvin staan 9 tot 11 stekels.\n\n
-De buikvin is zilverkleurig.\n\n
-Rugen anaalvin bevinden zich ver naar achteren op het lichaam.]]></string>
-    <string name="descr154343"><![CDATA[De iris van het oog is oranje.\n\n
-De vinnen zijn bolrond.\n\n
-Er zijn 2 korte bekdraden aanwezig.]]></string>
-    <string name="descr151290"><![CDATA[Op het kieuwdeksel zit vaak een oranjerode, zwart omrande vlek.\n\n
-De rugvin bestaat uit een voorste gedeelte met harde stekels en een hoger achtergedeelte.\n\n
-Het lichaam is opvallend getekend met blauwachtige flanken, met geelbruine en rode vlekjes]]></string>
-    <string name="descr126916"><![CDATA[Achterin de voorste rugvin is een zwarte vlek aanwezig.\n\n
-De buikvinnen zijn aaneengegroeid tot een zuigschijf.\n\n
-Achterste rugvin recht.]]></string>
+    <string name="descr151353"><![CDATA[- Over lichaam lopen meerdere verticale, donkere banden.\n
+- Twee gescheiden rugvinnen.\n
+- In achterste vinstralen van voorste rugvin zit een zwarte vlek.\n
+- makkelijk te onthouden, vis in pyjama of vis in gevangeniskleren]]></string>
+    <string name="descr154333"><![CDATA[- Eindstandige bek.\n
+- Boven in oog een oranjerode vlek.\n
+- Voorzijde rugvin boven voorzijde buikvinnen.]]></string>
+    <string name="descr127141"><![CDATA[- platte bodemvis met bek en ogen schuin naar boven\n
+- heeft onregelmatige oranje vlekken op donkere rugzijde\n
+- lichte buikzijde ligt op de bodem]]></string>
+    <string name="descr154281"><![CDATA[- Een hooggebouwde zijdelings afgeplatte vis.\n
+- De oogdiameter is kleiner dan de afstand van het oog tot de bek.\n
+- Bovenstandige bek die ver uitstulpbaar is.\n
+- Slijmerige huid]]></string>
+    <string name="descr236462"><![CDATA[- Voor de rugvin staan 2 tot 4 stekels.\n
+- Rug- en anaalvin staan ver naar achteren.\n
+- Paaiende mannetjes hebben een rode keel en buik en blauwe ogen.]]></string>
+    <string name="descr154582"><![CDATA[- schubkarpers komen het meest voor\n
+- vier bekdraden, waarvan 2 in de hoeken van de bek\n
+- de rand van de lange rugvin is hol ingesneden]]></string>
+    <string name="descr126915"><![CDATA[- kop breder dan hoog\n
+- gezwollen wangen en lippen; bovenstandige bek.\n
+- kleine buikvinnen zijn aaneengegroeid tot een zuignap.\n
+- Lichaam en kop roodbruin gemarmerd.\n
+]]></string>
+    <string name="descr154373"><![CDATA[- 6 korte bekdraden; 4 op de bovenlip en 2 in de hoeken van de bek.\n
+- Op de flanken grote donkerbruine vlekken.\n
+- Onder oog gevorkte stekel gericht naar de staart.]]></string>
+    <string name="descr154274"><![CDATA[- relatief groot oog, dat dichtbij punt van de bek ligt\n
+- relatief kleine kop, sterk zijdelings afgeplat lichaam\n
+- zilverkleurige flanken, lijkt op brasem\n
+- stuur daarom altijd een foto mee]]></string>
+    <string name="descr154388"><![CDATA[- Onder de kin 1 kindraad.\n
+- 2 gescheiden rugvinnen.\n
+- Buikvinnen staan voor borstvinnen.]]></string>
+    <string name="descr126933"><![CDATA[- De ogen staan hoog in de kop.\n
+- De neusopeningen vormen korte buisjes.\n
+- Twee gescheiden rugvinnen, waarvan de achterste rugvin een vinzoom is.]]></string>
+    <string name="descr126281"><![CDATA[- Slangachtig lichaam. \n
+- Bovenstandige bek.\n
+- Boven en onder vinzomen die uitlopen in staartpunt.]]></string>
+    <string name="descr126913"><![CDATA[- De ogen staan hoog in de kop.\n
+- De achterste rugvin en anaalvin lopen naar achteren schuin af.\n
+- De vis is bleek van kleur met op de flanken licht blauwgrijze kleur met vage donkere vlekken.]]></string>
+    <string name="descr151302"><![CDATA[- Het is de kleinste baarsachtigen die maximaal 14cm wordt.\n
+- Het lichaam, staart- en rugvin is getekend met donkere vlekjes\n
+- Het is een bodembewonende vis met voorkeur voor dieper water.]]></string>
+    <string name="descr127196"><![CDATA[- De twee rugvinnen raken elkaar. De achterste rugvin is een stuk langer dan de voorste.\n
+- Op het kieuwdeksel staan omhoog wijzende stekeltjes.\n
+- Schubben ontbreken op de kop.\n
+- Zeer brede borstvinnen]]></string>
+    <string name="descr154165"><![CDATA[- Een bovenstandige bek.\n
+- Voorzijde rugvin duidelijk achter voorzijde buikvinnen.\n
+- Helder rode vinnen.]]></string>
+    <string name="descr154210"><![CDATA[- Anaalvin en rugvin ver achterop lichaam.\n
+- De kop loopt uit in een platte, brede bek.\n
+- Jonge dieren hebben nog vooral goudkleurige strepen\n
+- Volwassenen hebben vooral goudkleurige stippen ]]></string>
+    <string name="descr151308"><![CDATA[- De 2 rugvinnen zijn gescheiden.\n
+- De bovenkaak loopt door tot achter het oog.\n
+- Kieuwdeksels met een scherpe punt.]]></string>
+    <string name="descr126507"><![CDATA[- Voor de rugvin staan 9 tot 11 stekels.\n
+- De buikvin is zilverkleurig.\n
+- Rug- en anaalvin bevinden zich ver naar achteren op het lichaam.]]></string>
+    <string name="descr154321"><![CDATA[- slank en zijdelings afgeplat klein visje\n
+- zilverkleurig, tot 8 cm\n
+- bovenstandige bek]]></string>
+    <string name="descr10194"><![CDATA[- mogelijke karper- of baarssoort\n
+- stuur daarom altijd een foto mee]]></string>
+    <string name="descr154324"><![CDATA[- heeft kleinere schubjes dan blank- of ruisvoorn\n
+- heeft een kleine, eindstandige bek\n
+- de vinnen zijn rozerood\n
+- kleurloze iris]]></string>
+    <string name="descr154343"><![CDATA[- Goud/bronskleurig dier\n
+- Gladde huid, schubben niet zichtbaar\n
+- De hele iris van het oog is oranje.\n
+- Alle vinnen zijn bolrond.\n
+]]></string>
+    <string name="descr151290"><![CDATA[- Op het kieuwdeksel zit vaak een oranjerode, zwart omrande vlek.\n
+- De rugvin bestaat uit een voorste gedeelte met harde stekels en een hoger achtergedeelte.\n
+- Het lichaam is opvallend getekend met blauwachtige flanken, met geelbruine en rode vlekjes]]></string>
+    <string name="descr126916"><![CDATA[- Korte rugvin voor, met zwarte vlek\n
+- Achterste rugvin langer.\n
+- Voorste rugvin meestal plat op de rug.\n
+- De kleine buikvinnen zijn aaneengegroeid tot een zuignap]]></string>
+    <string name="descr107451"><![CDATA[- scharen lijken met \'vacht\' bekleed\n
+- lichtgekleurde krab die tot 40cm breed kan worden (incl. poten)\n
+- vooral \'s nachts actief, schuilen overdag in zelfgegraven holen\n
+]]></string>
+    <string name="descr234098"><![CDATA[- wijnrode vlekken op het achterlijf\n
+- donkerbruine kleur\n
+- oranje tipjes aan de scharen\n
+- kleiner dan de rode soortgenoot]]></string>
+    <string name="descr465540"><![CDATA[- rood van kleur (tenzij net verveld, dan bruin)\n
+- grote scharen, fors dier\n
+- grote knobbels op de scharen\n
+- vaakst te vinden in (afvoer)pijpen onder water]]></string>
+    <string name="descr2689"><![CDATA[- groen/bruingekleurd met gele strepen op de kop\n
+- vaak zonnebadend gezien\n
+- koptekening bewijst de soort\n
+- stuur daarom altijd een foto mee]]></string>
 </resources>

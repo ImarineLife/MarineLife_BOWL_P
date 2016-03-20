@@ -1,22 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
-    <string name="latin126281"><![CDATA[Anguilla anguilla]]></string>
     <string name="latin151353"><![CDATA[Perca fluviatilis]]></string>
+    <string name="latin154333"><![CDATA[Rutilus rutilus]]></string>
+    <string name="latin127141"><![CDATA[Platichthys flesus]]></string>
     <string name="latin154281"><![CDATA[Abramis brama]]></string>
-    <string name="latin154333"><![CDATA[Rutilis rutilis]]></string>
     <string name="latin236462"><![CDATA[Gasterosteus aculeatus aculeatus]]></string>
+    <string name="latin154582"><![CDATA[Cyprinus carpio]]></string>
     <string name="latin126915"><![CDATA[Neogobius kessleri]]></string>
     <string name="latin154373"><![CDATA[Cobitis taenia]]></string>
+    <string name="latin154274"><![CDATA[Blicca bjoerkna]]></string>
     <string name="latin154388"><![CDATA[Lota lota]]></string>
     <string name="latin126933"><![CDATA[Proterorhinus semillunaris]]></string>
+    <string name="latin126281"><![CDATA[Anguilla anguilla]]></string>
     <string name="latin126913"><![CDATA[Neogobius fluviatilis]]></string>
     <string name="latin151302"><![CDATA[Gymnocephalus cernuus]]></string>
     <string name="latin127196"><![CDATA[Cottus perifretum]]></string>
-    <string name="latin154165"><![CDATA[Scadinius erythrophthalmus]]></string>
+    <string name="latin154165"><![CDATA[Scardinius erythrophthalmus]]></string>
     <string name="latin154210"><![CDATA[Esox lucius]]></string>
     <string name="latin151308"><![CDATA[Sander luciperca]]></string>
     <string name="latin126507"><![CDATA[Pungitius pungitius]]></string>
+    <string name="latin154321"><![CDATA[Leucaspius delineatus]]></string>
+    <string name="latin10194"><![CDATA[Actinopterygii sp. indet.]]></string>
+    <string name="latin154324"><![CDATA[Leuciscus idus]]></string>
     <string name="latin154343"><![CDATA[Tinca tinca]]></string>
     <string name="latin151290"><![CDATA[Lepomis gibbosus]]></string>
     <string name="latin126916"><![CDATA[Neogobius melanostomus]]></string>
+    <string name="latin107451"><![CDATA[Eriocheir sinensis]]></string>
+    <string name="latin234098"><![CDATA[Orconectes limosus]]></string>
+    <string name="latin465540"><![CDATA[Procambarus clarkii]]></string>
+    <string name="latin2689"><![CDATA[Trachemys scripta s.l.]]></string>
 </resources>

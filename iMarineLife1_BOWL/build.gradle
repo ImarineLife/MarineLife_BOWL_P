@@ -13,10 +13,10 @@ android {
 
     defaultConfig {
         applicationId "nl.imarinelife.bowl"
-        minSdkVersion 14
+        minSdkVersion 12
         targetSdkVersion 22
-        versionCode 17
-        versionName "1.17"
+        versionCode 18
+        versionName "1.18"
     }
     signingConfigs {
         release {

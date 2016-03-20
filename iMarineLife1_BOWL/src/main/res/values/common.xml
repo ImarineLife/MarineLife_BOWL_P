@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
-    <string name="common126281"><![CDATA[Eel]]></string>
     <string name="common151353"><![CDATA[Perch]]></string>
-    <string name="common154281"><![CDATA[Bream]]></string>
     <string name="common154333"><![CDATA[Roach]]></string>
+    <string name="common127141"><![CDATA[Flounder]]></string>
+    <string name="common154281"><![CDATA[Bream]]></string>
     <string name="common236462"><![CDATA[Three-spined stickleback]]></string>
+    <string name="common154582"><![CDATA[Carp]]></string>
     <string name="common126915"><![CDATA[Bighead goby]]></string>
     <string name="common154373"><![CDATA[Spined loach]]></string>
+    <string name="common154274"><![CDATA[White bream]]></string>
     <string name="common154388"><![CDATA[Burbot]]></string>
     <string name="common126933"><![CDATA[Western tubenose goby]]></string>
+    <string name="common126281"><![CDATA[Eel]]></string>
     <string name="common126913"><![CDATA[Pontian monkey goby]]></string>
     <string name="common151302"><![CDATA[Ruffe]]></string>
     <string name="common127196"><![CDATA[Chabot bullhead]]></string>
@@ -16,7 +19,14 @@
     <string name="common154210"><![CDATA[Pike]]></string>
     <string name="common151308"><![CDATA[Zander]]></string>
     <string name="common126507"><![CDATA[Ninespine stickleback]]></string>
+    <string name="common154321"><![CDATA[Moderlieschen]]></string>
+    <string name="common10194"><![CDATA[fishspawn, undetermined]]></string>
+    <string name="common154324"><![CDATA[Ide]]></string>
     <string name="common154343"><![CDATA[Tench]]></string>
     <string name="common151290"><![CDATA[Pumpkinseed sunfish]]></string>
     <string name="common126916"><![CDATA[Round goby]]></string>
+    <string name="common107451"><![CDATA[Chinese mitten crab]]></string>
+    <string name="common234098"><![CDATA[Spinycheek crayfish]]></string>
+    <string name="common465540"><![CDATA[Louisiana crayfish]]></string>
+    <string name="common2689"><![CDATA[freshwater slider turtle]]></string>
 </resources>

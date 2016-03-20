@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
-    <string name="common126281"><![CDATA[Paling]]></string>
     <string name="common151353"><![CDATA[Baars]]></string>
-    <string name="common154281"><![CDATA[Brasem]]></string>
     <string name="common154333"><![CDATA[Blankvoorn]]></string>
+    <string name="common127141"><![CDATA[Bot]]></string>
+    <string name="common154281"><![CDATA[Brasem]]></string>
     <string name="common236462"><![CDATA[Driedoornige stekelbaars]]></string>
+    <string name="common154582"><![CDATA[Karper]]></string>
     <string name="common126915"><![CDATA[Kesslersgrondel]]></string>
     <string name="common154373"><![CDATA[Kleine modderkruiper]]></string>
+    <string name="common154274"><![CDATA[Kolblei]]></string>
     <string name="common154388"><![CDATA[Kwabaal]]></string>
     <string name="common126933"><![CDATA[Marmergrondel]]></string>
+    <string name="common126281"><![CDATA[Paling]]></string>
     <string name="common126913"><![CDATA[Pontische stroomgrondel]]></string>
     <string name="common151302"><![CDATA[Pos]]></string>
     <string name="common127196"><![CDATA[Rivierdonderpad]]></string>
@@ -16,7 +19,14 @@
     <string name="common154210"><![CDATA[Snoek]]></string>
     <string name="common151308"><![CDATA[Snoekbaars]]></string>
     <string name="common126507"><![CDATA[Tiendoornige stekelbaars]]></string>
+    <string name="common154321"><![CDATA[Vetje]]></string>
+    <string name="common10194"><![CDATA[visbroed onbepaald]]></string>
+    <string name="common154324"><![CDATA[Winde]]></string>
     <string name="common154343"><![CDATA[Zeelt]]></string>
     <string name="common151290"><![CDATA[Zonnebaars]]></string>
     <string name="common126916"><![CDATA[Zwartbekgrondel]]></string>
+    <string name="common107451"><![CDATA[Chinese wolhandkrab]]></string>
+    <string name="common234098"><![CDATA[Gevlekte Amerik. Rivierkreeft]]></string>
+    <string name="common465540"><![CDATA[Rode Amerik. Rivierkreeft]]></string>
+    <string name="common2689"><![CDATA[Moerasschildpad ]]></string>
 </resources>

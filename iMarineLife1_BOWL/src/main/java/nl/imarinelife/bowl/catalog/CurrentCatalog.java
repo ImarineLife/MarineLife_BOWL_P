@@ -1,5 +1,9 @@
 package nl.imarinelife.bowl.catalog;
 
+import android.content.Context;
+import android.content.pm.PackageManager.NameNotFoundException;
+import android.util.Log;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
@@ -12,10 +16,6 @@ import nl.imarinelife.lib.divinglog.db.dive.DiveDbHelper;
 import nl.imarinelife.lib.divinglog.db.res.LocationDbHelper;
 import nl.imarinelife.lib.divinglog.db.res.ProfilePartDbHelper;
 import nl.imarinelife.lib.fieldguide.db.FieldGuideAndSightingsEntryDbHelper;
-import android.content.Context;
-import android.content.pm.PackageManager.NameNotFoundException;
-import android.database.sqlite.SQLiteDatabase;
-import android.util.Log;
 
 public class CurrentCatalog extends Catalog {
 
@@ -36,6 +36,7 @@ public class CurrentCatalog extends Catalog {
 
 			me.initializeLocations(ctx);
 			me.initializeProfileParts(ctx);
+            me.initializeFieldGuide(ctx);
 			me.cleanup();
 
 		}
@@ -74,8 +75,8 @@ public class CurrentCatalog extends Catalog {
 			version = 1;
 		}
 		
-		DATAVERSION_FIELDGUIDEANDSIGHTINGS = 4;
-		DATAVERSION_LOCATIONS = 4;
+		DATAVERSION_FIELDGUIDEANDSIGHTINGS = 5;
+		DATAVERSION_LOCATIONS = 5;
 		DATAVERSION_PROFILEPARTS = 5;
 
 		try {
@@ -85,12 +86,13 @@ public class CurrentCatalog extends Catalog {
 			versionName = "1.1";
 		}
 
+        Preferences.setInt(Preferences.DATAVERSION_FIELDGUIDEANDSIGHTINGS, 4);
 		Log.d(TAG, Preferences.DATAVERSION_FIELDGUIDEANDSIGHTINGS+": "+Preferences.getInt(Preferences.DATAVERSION_FIELDGUIDEANDSIGHTINGS, 0));
 		Log.d(TAG, Preferences.DATAVERSION_LOCATIONS+": "+Preferences.getInt(Preferences.DATAVERSION_LOCATIONS, 0));
 		Log.d(TAG, Preferences.DATAVERSION_PROFILEPARTS+": "+Preferences.getInt(Preferences.DATAVERSION_PROFILEPARTS, 0));
-		Log.d(TAG, Preferences.DATAVERSION_DIVES+": "+Preferences.getInt(Preferences.DATAVERSION_DIVES, 0));
-		
-		name = LibApp.getCurrentResources().getString(R.string.catalog_name);
+		Log.d(TAG, Preferences.DATAVERSION_DIVES + ": " + Preferences.getInt(Preferences.DATAVERSION_DIVES, 0));
+
+        name = LibApp.getCurrentResources().getString(R.string.catalog_name);
 		hideCode = true;
 		project_name = LibApp.getCurrentResources().getString(
 				R.string.project_name);
@@ -112,141 +114,192 @@ public class CurrentCatalog extends Catalog {
 				R.string.mail_from_password);
 		mailTo = LibApp.getCurrentResources().getString(R.string.mail_to);
 
-		ids = new Integer[] { 126281, 151353, 154281, 154333, 236462, 126915,
-				154373, 154388, 126933, 126913, 151302, 127196, 154165, 154210,
-				151308, 126507, 154343, 151290, 126916 };
 
-		latinIds = new Integer[] { R.string.latin126281, R.string.latin151353,
-				R.string.latin154281, R.string.latin154333,
-				R.string.latin236462, R.string.latin126915,
-				R.string.latin154373, R.string.latin154388,
-				R.string.latin126933, R.string.latin126913,
-				R.string.latin151302, R.string.latin127196,
-				R.string.latin154165, R.string.latin154210,
-				R.string.latin151308, R.string.latin126507,
-				R.string.latin154343, R.string.latin151290,
-				R.string.latin126916 };
+        // from here :  generated catalog fragement from excel
+        ids = new Integer[]{151353, 154333, 127141, 154281, 236462, 154582, 126915, 154373, 154274,
+                154388, 126933, 126281, 126913, 151302, 127196, 154165, 154210, 151308, 126507,
+                154321, 10194, 154324, 154343, 151290, 126916, 107451, 234098, 465540, 2689};
 
-		commonIds = new HashMap<String, Integer>();
-		commonIds.put("common126281", R.string.common126281);
-		commonIds.put("common151353", R.string.common151353);
-		commonIds.put("common154281", R.string.common154281);
-		commonIds.put("common154333", R.string.common154333);
-		commonIds.put("common236462", R.string.common236462);
-		commonIds.put("common126915", R.string.common126915);
-		commonIds.put("common154373", R.string.common154373);
-		commonIds.put("common154388", R.string.common154388);
-		commonIds.put("common126933", R.string.common126933);
-		commonIds.put("common126913", R.string.common126913);
-		commonIds.put("common151302", R.string.common151302);
-		commonIds.put("common127196", R.string.common127196);
-		commonIds.put("common154165", R.string.common154165);
-		commonIds.put("common154210", R.string.common154210);
-		commonIds.put("common151308", R.string.common151308);
-		commonIds.put("common126507", R.string.common126507);
-		commonIds.put("common154343", R.string.common154343);
-		commonIds.put("common151290", R.string.common151290);
-		commonIds.put("common126916", R.string.common126916);
+        latinIds = new Integer[]{R.string.latin151353, R.string.latin154333, R.string.latin127141,
+                R.string.latin154281, R.string.latin236462, R.string.latin154582, R.string.latin126915,
+                R.string.latin154373, R.string.latin154274, R.string.latin154388, R.string.latin126933,
+                R.string.latin126281, R.string.latin126913, R.string.latin151302, R.string.latin127196,
+                R.string.latin154165, R.string.latin154210, R.string.latin151308, R.string.latin126507,
+                R.string.latin154321, R.string.latin10194, R.string.latin154324, R.string.latin154343,
+                R.string.latin151290, R.string.latin126916, R.string.latin107451, R.string.latin234098,
+                R.string.latin465540, R.string.latin2689};
 
-		descrIds = new HashMap<String, Integer>();
-		descrIds.put("descr126281", R.string.descr126281);
-		descrIds.put("descr151353", R.string.descr151353);
-		descrIds.put("descr154281", R.string.descr154281);
-		descrIds.put("descr154333", R.string.descr154333);
-		descrIds.put("descr236462", R.string.descr236462);
-		descrIds.put("descr126915", R.string.descr126915);
-		descrIds.put("descr154373", R.string.descr154373);
-		descrIds.put("descr154388", R.string.descr154388);
-		descrIds.put("descr126933", R.string.descr126933);
-		descrIds.put("descr126913", R.string.descr126913);
-		descrIds.put("descr151302", R.string.descr151302);
-		descrIds.put("descr127196", R.string.descr127196);
-		descrIds.put("descr154165", R.string.descr154165);
-		descrIds.put("descr154210", R.string.descr154210);
-		descrIds.put("descr151308", R.string.descr151308);
-		descrIds.put("descr126507", R.string.descr126507);
-		descrIds.put("descr154343", R.string.descr154343);
-		descrIds.put("descr151290", R.string.descr151290);
-		descrIds.put("descr126916", R.string.descr126916);
+        commonIds = new HashMap<String, Integer>();
+        commonIds.put("common151353", R.string.common151353);
+        commonIds.put("common154333", R.string.common154333);
+        commonIds.put("common127141", R.string.common127141);
+        commonIds.put("common154281", R.string.common154281);
+        commonIds.put("common236462", R.string.common236462);
+        commonIds.put("common154582", R.string.common154582);
+        commonIds.put("common126915", R.string.common126915);
+        commonIds.put("common154373", R.string.common154373);
+        commonIds.put("common154274", R.string.common154274);
+        commonIds.put("common154388", R.string.common154388);
+        commonIds.put("common126933", R.string.common126933);
+        commonIds.put("common126281", R.string.common126281);
+        commonIds.put("common126913", R.string.common126913);
+        commonIds.put("common151302", R.string.common151302);
+        commonIds.put("common127196", R.string.common127196);
+        commonIds.put("common154165", R.string.common154165);
+        commonIds.put("common154210", R.string.common154210);
+        commonIds.put("common151308", R.string.common151308);
+        commonIds.put("common126507", R.string.common126507);
+        commonIds.put("common154321", R.string.common154321);
+        commonIds.put("common10194", R.string.common10194);
+        commonIds.put("common154324", R.string.common154324);
+        commonIds.put("common154343", R.string.common154343);
+        commonIds.put("common151290", R.string.common151290);
+        commonIds.put("common126916", R.string.common126916);
+        commonIds.put("common107451", R.string.common107451);
+        commonIds.put("common234098", R.string.common234098);
+        commonIds.put("common465540", R.string.common465540);
+        commonIds.put("common2689", R.string.common2689);
 
-		groupIds = new HashMap<String, Integer>();
-		groupIds.put("pisces", R.string.pisces);
+        descrIds = new HashMap<String, Integer>();
+        descrIds.put("descr151353", R.string.descr151353);
+        descrIds.put("descr154333", R.string.descr154333);
+        descrIds.put("descr127141", R.string.descr127141);
+        descrIds.put("descr154281", R.string.descr154281);
+        descrIds.put("descr236462", R.string.descr236462);
+        descrIds.put("descr154582", R.string.descr154582);
+        descrIds.put("descr126915", R.string.descr126915);
+        descrIds.put("descr154373", R.string.descr154373);
+        descrIds.put("descr154274", R.string.descr154274);
+        descrIds.put("descr154388", R.string.descr154388);
+        descrIds.put("descr126933", R.string.descr126933);
+        descrIds.put("descr126281", R.string.descr126281);
+        descrIds.put("descr126913", R.string.descr126913);
+        descrIds.put("descr151302", R.string.descr151302);
+        descrIds.put("descr127196", R.string.descr127196);
+        descrIds.put("descr154165", R.string.descr154165);
+        descrIds.put("descr154210", R.string.descr154210);
+        descrIds.put("descr151308", R.string.descr151308);
+        descrIds.put("descr126507", R.string.descr126507);
+        descrIds.put("descr154321", R.string.descr154321);
+        descrIds.put("descr10194", R.string.descr10194);
+        descrIds.put("descr154324", R.string.descr154324);
+        descrIds.put("descr154343", R.string.descr154343);
+        descrIds.put("descr151290", R.string.descr151290);
+        descrIds.put("descr126916", R.string.descr126916);
+        descrIds.put("descr107451", R.string.descr107451);
+        descrIds.put("descr234098", R.string.descr234098);
+        descrIds.put("descr465540", R.string.descr465540);
+        descrIds.put("descr2689", R.string.descr2689);
 
-		commonToGroup = new HashMap<String, String>();
-		commonToGroup.put("common126281", "pisces");
-		commonToGroup.put("common151353", "pisces");
-		commonToGroup.put("common154281", "pisces");
-		commonToGroup.put("common154333", "pisces");
-		commonToGroup.put("common236462", "pisces");
-		commonToGroup.put("common126915", "pisces");
-		commonToGroup.put("common154373", "pisces");
-		commonToGroup.put("common154388", "pisces");
-		commonToGroup.put("common126933", "pisces");
-		commonToGroup.put("common126913", "pisces");
-		commonToGroup.put("common151302", "pisces");
-		commonToGroup.put("common127196", "pisces");
-		commonToGroup.put("common154165", "pisces");
-		commonToGroup.put("common154210", "pisces");
-		commonToGroup.put("common151308", "pisces");
-		commonToGroup.put("common126507", "pisces");
-		commonToGroup.put("common154343", "pisces");
-		commonToGroup.put("common151290", "pisces");
-		commonToGroup.put("common126916", "pisces");
+        groupIds = new HashMap<String, Integer>();
+        groupIds.put("pisces", R.string.pisces);
+        groupIds.put("other", R.string.other);
 
-		locationNames = new HashMap<String, Integer>();
-		locationNames.put("loc01", R.string.loc01);
-		locationNames.put("loc02", R.string.loc02);
-		locationNames.put("loc03", R.string.loc03);
-		locationNames.put("loc04a", R.string.loc04a);
-		locationNames.put("loc04b", R.string.loc04b);
-		locationNames.put("loc04c", R.string.loc04c);
-		locationNames.put("loc04d", R.string.loc04d);
-		locationNames.put("loc05", R.string.loc05);
-		locationNames.put("loc06", R.string.loc06);
-		locationNames.put("loc07", R.string.loc07);
-		locationNames.put("loc08a", R.string.loc08a);
-		locationNames.put("loc08b", R.string.loc08b);
-		locationNames.put("loc08c", R.string.loc08c);
-		locationNames.put("loc08d", R.string.loc08d);
-		locationNames.put("loc09", R.string.loc09);
-		locationNames.put("loc10a", R.string.loc10a);
-		locationNames.put("loc10b", R.string.loc10b);
-		locationNames.put("loc11a", R.string.loc11a);
-		locationNames.put("loc11b", R.string.loc11b);
-		locationNames.put("loc12", R.string.loc12);
+        commonToGroup = new HashMap<String, String>();
+        commonToGroup.put("common151353", "pisces");
+        commonToGroup.put("common154333", "pisces");
+        commonToGroup.put("common127141", "pisces");
+        commonToGroup.put("common154281", "pisces");
+        commonToGroup.put("common236462", "pisces");
+        commonToGroup.put("common154582", "pisces");
+        commonToGroup.put("common126915", "pisces");
+        commonToGroup.put("common154373", "pisces");
+        commonToGroup.put("common154274", "pisces");
+        commonToGroup.put("common154388", "pisces");
+        commonToGroup.put("common126933", "pisces");
+        commonToGroup.put("common126281", "pisces");
+        commonToGroup.put("common126913", "pisces");
+        commonToGroup.put("common151302", "pisces");
+        commonToGroup.put("common127196", "pisces");
+        commonToGroup.put("common154165", "pisces");
+        commonToGroup.put("common154210", "pisces");
+        commonToGroup.put("common151308", "pisces");
+        commonToGroup.put("common126507", "pisces");
+        commonToGroup.put("common154321", "pisces");
+        commonToGroup.put("common10194", "pisces");
+        commonToGroup.put("common154324", "pisces");
+        commonToGroup.put("common154343", "pisces");
+        commonToGroup.put("common151290", "pisces");
+        commonToGroup.put("common126916", "pisces");
+        commonToGroup.put("common107451", "other");
+        commonToGroup.put("common234098", "other");
+        commonToGroup.put("common465540", "other");
+        commonToGroup.put("common2689", "other");
 
-		checkValues = new String[] { null, null, null, null, null, null, null,
-				null, null, null, null, null, null, null, null, null, null,
-				null, null };
+        locationNames = new HashMap<String, Integer>();
+        locationNames.put("loc01", R.string.loc01);
+        locationNames.put("loc02", R.string.loc02);
+        locationNames.put("loc03", R.string.loc03);
+        locationNames.put("loc04a", R.string.loc04a);
+        locationNames.put("loc04b", R.string.loc04b);
+        locationNames.put("loc04c", R.string.loc04c);
+        locationNames.put("loc04d", R.string.loc04d);
+        locationNames.put("loc05", R.string.loc05);
+        locationNames.put("loc06", R.string.loc06);
+        locationNames.put("loc07", R.string.loc07);
+        locationNames.put("loc08a", R.string.loc08a);
+        locationNames.put("loc08b", R.string.loc08b);
+        locationNames.put("loc08c", R.string.loc08c);
+        locationNames.put("loc08d", R.string.loc08d);
+        locationNames.put("loc09", R.string.loc09);
+        locationNames.put("loc10a", R.string.loc10a);
+        locationNames.put("loc10b", R.string.loc10b);
+        locationNames.put("loc11a", R.string.loc11a);
+        locationNames.put("loc11b", R.string.loc11b);
+        locationNames.put("loc12", R.string.loc12);
+        locationNames.put("loc13", R.string.loc13);
+        locationNames.put("loc14", R.string.loc14);
+        locationNames.put("loc15", R.string.loc15);
+        locationNames.put("loc16", R.string.loc16);
+        locationNames.put("loc17", R.string.loc17);
+        locationNames.put("loc18", R.string.loc18);
+        locationNames.put("loc19", R.string.loc19);
+        locationNames.put("loc20", R.string.loc20);
+        locationNames.put("loc21", R.string.loc21);
+        locationNames.put("loc22", R.string.loc22);
+        locationNames.put("loc23", R.string.loc23);
+        locationNames.put("loc24", R.string.loc24);
+        locationNames.put("loc25", R.string.loc25);
+        locationNames.put("loc26", R.string.loc26);
+        locationNames.put("loc27", R.string.loc27);
+        locationNames.put("loc28", R.string.loc28);
+        locationNames.put("loc29", R.string.loc29);
+        locationNames.put("loc30", R.string.loc30);
+        locationNames.put("loc31", R.string.loc31);
+        locationNames.put("loc32", R.string.loc32);
+        locationNames.put("loc33", R.string.loc33);
+        locationNames.put("loc34", R.string.loc34);
+        locationNames.put("loc35", R.string.loc35);
 
-		valuesMap = new HashMap<String, Integer>();
-		valuesMap.put("Z", R.string.Z);
-		valuesMap.put("A", R.string.A);
-		valuesMap.put("M", R.string.M);
+        checkValues = new String[]{null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null};
 
-		profileParts = new String[][] { { "lopend", "true", "1" },
-				{ "snorkelend", "true", "2" }, { "luchttemp", "false", "3" }, { "watertemp", "false", "4" } };
-		profilePartsMap = new HashMap<String, Integer>();
-		profilePartsMap.put("lopend", R.string.wandelend);
-		profilePartsMap.put("snorkelend", R.string.snorkelend);
-		profilePartsMap.put("watertemp", R.string.watertemp);
-		profilePartsMap.put("luchttemp", R.string.luchttemp);
+        valuesMap = new HashMap<String, Integer>();
+        valuesMap.put("Z", R.string.Z);
+        valuesMap.put("A", R.string.A);
+        valuesMap.put("M", R.string.M);
 
-		if (sightingChoices.isEmpty()) {
-			checkboxChoices.add("");
-			sightingChoices.add("0");
-			sightingChoices.add("?");
-			sightingChoices.add("Z");
-			sightingChoices.add("A");
-			sightingChoices.add("M");
-			defaultChoice = "?";
-		}
-		if (defaultableSightingChoices.isEmpty()) {
-			defaultableSightingChoices.add("?");
-			defaultableSightingChoices.add("0");
-		}
+        profileParts = new String[][]{{"lopend", "true", "1"}, {"snorkelend", "true", "2"}, {"luchttemp", "false", "3"}, {"watertemp", "false", "4"}};
+        profilePartsMap = new HashMap<String, Integer>();
+        profilePartsMap.put("lopend", R.string.lopend);
+        profilePartsMap.put("snorkelend", R.string.snorkelend);
+        profilePartsMap.put("luchttemp", R.string.luchttemp);
+        profilePartsMap.put("watertemp", R.string.watertemp);
 
-		allgroups = LibApp.getCurrentResources().getString(R.string.allgroups);
+        if (sightingChoices.isEmpty()) {
+            checkboxChoices.add("");
+            sightingChoices.add("0");
+            sightingChoices.add("Z");
+            sightingChoices.add("A");
+            sightingChoices.add("M");
+            defaultChoice = "0";
+        }
+
+        if (defaultableSightingChoices.isEmpty()) {
+            defaultableSightingChoices.add("0");
+        }
+
+        allgroups = "$pisces$$other$";
+        // upto here :  generated catalog fragement from excel
 
 		// necessary byte array for getting expansion file
 		// null if no expansionfile is available
@@ -387,15 +440,22 @@ public class CurrentCatalog extends Catalog {
 	
 	public void onDataVersionUpgrade_FieldGuideAndSightings(int oldVersion, int newVersion) {
 		boolean doFieldGuideOnlyUpdate = true;
+
 		FieldGuideAndSightingsEntryDbHelper helper = FieldGuideAndSightingsEntryDbHelper.getInstance(LibApp.getContext());
 		switch (oldVersion) {
 			case 0:// do what needs to be done. like onUpgrade, to be implemented as fallthrough
 			case 1: 
 			case 2:
 			case 3:
-				Log.d(TAG,"onDataVersionUpgrade_FieldGuideAndSightings");
-				helper.fillFieldsForVersion004(); //refill FieldGuide and Sightings
-				doFieldGuideOnlyUpdate=false; //already done
+                Log.d(TAG,"onDataVersionUpgrade_FieldGuideAndSightings");
+                helper.fillFieldsForVersion004(); //refill FieldGuide and Sightings for existing entries (no new ones will be added
+                doFieldGuideOnlyUpdate=false; //already done
+            default:
+                if(doFieldGuideOnlyUpdate) {
+                    Log.d(TAG, "onDataVersionUpgrade_FieldGuideAndSightings");
+                    helper.initialize(LibApp.getCurrentResources());
+                }
+
 		}
 	}
 	

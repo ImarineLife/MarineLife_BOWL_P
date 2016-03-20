@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="nl.imarinelife.bowl">
 
     <!-- Required to access Google Play Licensing -->
@@ -24,8 +25,9 @@
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <uses-sdk
-        android:minSdkVersion="14"
-        android:targetSdkVersion="22" />
+        android:minSdkVersion="11"
+        android:targetSdkVersion="22"
+        tools:overrideLibrary="com.android.vending.expansion.zipfile" />
 
     <application
         android:name="App"

@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
-    <string name="duikend"><![CDATA[Diving]]></string>
+    <string name="lopend"><![CDATA[Walking]]></string>
     <string name="snorkelend"><![CDATA[Snorkling]]></string>
-    <string name="wandelend"><![CDATA[Walking]]></string>
+    <string name="luchttemp"><![CDATA[Visibility in meters]]></string>
     <string name="watertemp"><![CDATA[Water temperature]]></string>
-    <string name="luchttemp"><![CDATA[Air temperature]]></string>
 </resources>

@@ -1,36 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
-    <string name="language">en</string>
     <string name="app_name"><![CDATA[BOWL NL sweet Leiden]]></string>
     <string name="project_name"><![CDATA[Blik Onderwater in Leiden (BOWL)]]></string>
-    <string name="catalog_name">BOWL</string>
-    <!-- catalogVersion where the last change was initiated. This translates directly to the location the expansionfiles are searched, 0 is the default... there is none -->
-    <string name="expansionfile_main_version">0</string>
-    <string name="expansionfile_patch_version">0</string>
     <string name="mail_body"><![CDATA[Sent from the iMarineLIfe App (NL Sweet BOWL Leiden)]]></string>
-    <string name="mail_from">mailer.imarinelife@gmail.com</string>
-    <string name="mail_from_password">D41k@ppj3</string>
     <string name="mail_to"><![CDATA[info@imarinelife.com, nielsschrieken@gmail.com,bowl.waarnemingen@gmail.com,visreservaatleiden@gmail.com]]></string>
-    <string name="introduction"><![CDATA[The project \'Blik Onder Water Leiden\' brings the under water life of the Leiden canals under the attention of the public.\n\n\n
-iMarineLife supports BOWL with the \'NL Sweet IBOWL Leiden\' app that helps to recognize the fish that are present in the Leiden canals. This enthuses tourists and residents alike. \n\n\n
-The app supports snorkelers, documenting and presenting their findings in the Leiden canals. The snorkeldives are done under professional guidance.]]></string>
-    <string name="help_for_observations"><![CDATA[Specify for each species in the fieldguide if you did \n\n
-   \t0\t\t- not \n\n
-   \tR\t\t- rarely (up to 10)\n\n
-   \tC\t\t- common (up to 100)\n\n
-   \tM\t- massively (more than 100)\n\n
-see any individuals\n\n\n
-Do not worry if you don\'t know if you saw or recognized the species. Then use:\n\n
-   \t?\t\t- don\'t know\n\n\n
-It is very likely that you may spot a species that is not on the list. Please send a photo to  foto@imarinelife.com.]]></string>
+    <string name="mail_from"><![CDATA[mailer.imarinelife@gmail.com]]></string>
+    <string name="mail_from_password"><![CDATA[D41k@ppj3]]></string>
+    <string name="language"><![CDATA[en]]></string>
+    <string name="catalog_name"><![CDATA[BOWL]]></string>
+    <string name="expansionfile_main_version"><![CDATA[0]]></string>
+    <string name="expansionfile_patch_version"><![CDATA[0]]></string>
+    <string name="introduction"><![CDATA[The project \'Blik Onder Water Leiden\' brings the under water life of the Leiden canals under the attention of the public.\n\n\n\n
+iMarineLife supports BOWL with the \'NL Sweet IBOWL Leiden\' app that helps to recognize the fish that are present in the Leiden canals. This enthuses tourists and residents alike. \n\n\n\n
+The app supports residents with documenting and presenting their findings in the Leiden canals. If snorkeldives are performed they are done under professional guidance.]]></string>
+    <string name="help_for_observations"><![CDATA[Specify for each species in the fieldguide if you did \n\n\n
+   \t0\t\t- not \n\n\n
+   \t<11\t\t- rarely (up to 10)\n\n\n
+   \t<51\t\t- regularly (up to 50)\n\n\n
+   \t>501\t- massively (more than 50)\n\n\n
+see any individuals\n\n\n\n
+Do not worry if you don\'t know if you saw or recognized the species. Then use 0\n\n\n
+It is very likely that you may spot a species that is not on the list. Please send a photo to  visreservaatleiden@gmail.com.]]></string>
     <string name="thanks"><![CDATA[This version of the iMarineLife app was created with the cooperation of enthousiastic volunteers.\n\n\n
-We thank the following people for:\n\n
+We thank the following people for:\n\n\n
 - donating photographs: Aaf Verkade, Silvia Waajen, Jef Driesen, Ellen Kop, Erik van Vessem, Berhold Raadsen en Wijnand Vlierhuis.\n\n
-- writing teksts: Niels Schrieken\n\n
+- writing teksts: Aaf Verkade and Niels Schrieken\n\n
 - building the app for Android: Marjon Roodzant\n\n
 - and the initiators: Aaf Verkade and Niels Schrieken. \n\n\n
 Aaf Verkade: www.blikonderwaterinleiden.nl\n\n
-Niels Schrieken: www.biorganized.com\n\n
-Finally we would like to thank everyone for using iMarineLife\n
-and sending in any sightings.]]></string>
+Niels Schrieken: www.biorganized.com\n\n\n
+Finally we would like to thank everyone for using iMarineLife\n\n
+and sending any sightings.]]></string>
 </resources>

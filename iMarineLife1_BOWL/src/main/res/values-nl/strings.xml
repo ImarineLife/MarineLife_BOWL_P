@@ -1,38 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
-    <string name="language">nl</string>
     <string name="app_name"><![CDATA[BOWL NL Zoet Leiden]]></string>
     <string name="project_name"><![CDATA[Blik Onderwater in Leiden (BOWL)]]></string>
-    <string name="catalog_name">BOWL</string>
-    <!-- catalogVersion where the last change was initiated. This translates directly to the location the expansionfiles are searched, 0 is the default... there is none -->
-    <string name="expansionfile_main_version">0</string>
-    <string name="expansionfile_patch_version">0</string>
     <string name="mail_body"><![CDATA[Automatisch verstuurd vanuit de iMarineLife App (NL Zoet iBOWL Leiden).]]></string>
-    <string name="mail_from">mailer.imarinelife@gmail.com</string>
-    <string name="mail_from_password">D41k@ppj3</string>
     <string name="mail_to"><![CDATA[info@imarinelife.com, nielsschrieken@gmail.com,bowl.waarnemingen@gmail.com,visreservaatleiden@gmail.com]]></string>
-    <string name="introduction"><![CDATA[Het project \'Blik Onder Water Leiden\' heeft tot doel het onderwaterleven in de Leidse grachten onder de aandacht te brengen bij het publiek.\n\n\n
-iMarineLife ondersteunt BOWL met de \'NL zoet iBOWL Leiden\' app voor het herkennen van vissen in de Leidse grachten. Hiermee enthousiasmeert ze toeristen en bewoners van Leiden. \n\n\n
-Deze app ondersteunt snorkelaars bij het vastleggen en opsturen van hun waarnemingen in de Leidse grachten. Deze snorkelduiken vinden plaats onder professionele begeleiding.]]></string>
-    <string name="help_for_observations"><![CDATA[Geef voor elke soort in de gids aan of je de soort:\n\n
-   \t0\t\t- niet \n\n
-   \tZ\t\t- zeldzaam (tot 10)\n\n
-   \tA\t\t- algemeen (tot 100)\n\n
-   \tM\t- massaal (meer dan 100)\n\n
+    <string name="mail_from"><![CDATA[mailer.imarinelife@gmail.com]]></string>
+    <string name="mail_from_password"><![CDATA[D41k@ppj3]]></string>
+    <string name="language"><![CDATA[nl]]></string>
+    <string name="catalog_name"><![CDATA[BOWL]]></string>
+    <string name="expansionfile_main_version"><![CDATA[0]]></string>
+    <string name="expansionfile_patch_version"><![CDATA[0]]></string>
+    <string name="introduction"><![CDATA[Het project \'Blik Onder Water Leiden\' heeft tot doel het onderwaterleven in de Leidse grachten onder de aandacht te brengen bij het publiek.\n\n\n\n
+iMarineLife ondersteunt BOWL met de \'NL zoet iBOWL Leiden\' app voor het herkennen van vissen in de Leidse grachten. Hiermee enthousiasmeert ze bewoners en bezoekers van Leiden. \n\n\n\n
+Deze app ondersteunt bewoners bij het vastleggen en opsturen van hun waarnemingen in de Leidse grachten. Indien snorkelend wordt gemonitord, vinden deze snorkelduiken plaats onder professionele begeleiding.]]></string>
+    <string name="help_for_observations"><![CDATA[Geef voor elke soort in de duikgids aan of je de soort:\n\n
+    - 0 - niet \n\n
+    - <11 - zeldzaam (tot 11)\n\n
+    - <51 - algemeen (tot 51)\n\n
+    - >50 - massaal (meer dan 50)\n\n
 hebt gezien\n\n\n
-Geen zorgen als je het niet weet of je de soort gezien of herkend hebt. Gebruik dan:\n\n
-   \t?\t\t- niet op gelet\n\n\n
+Geen zorgen als je het niet weet of je de soort gezien of herkend hebt. Gebruik dan 0.\n\n\n
 Foto\'s van het onderwaterleven uit de Leidse grachten zijn altijd welkom.\n \n
-Plaats ze op het zoetwaterforum van stichting ANEMOON:\n\n
+Stuur ze aan visreservaatleiden@gmail.com of plaats ze op het zoetwaterforum van stichting ANEMOON:\n\n
 http://www.anemoon.org/Mijn-Anemoon/Forum/aff/17.]]></string>
-    <string name="thanks"><![CDATA[Deze versie van de iMarineLife app is tot stand gekomen met de medewerking van enthousiaste vrijwilligers.\n\n\n
-De volgende mensen danken wij voor:\n\n
-- het leveren van foto\'s: Aaf Verkade, Silvia Waajen, Jef Driesen, Ellen Kop, Erik van Vessem, Berthold Raadsen en Wijnand Vlierhuis.\n\n
-- het schrijven van teksten door Niels Schrieken\n\n
-- het bouwen van de interactieve mariene veldgids voor Android door Marjon Roodzant\n\n
-- en de initiatiefnemers Aaf Verkade en Niels Schrieken.\n\n\n
-Aaf Verkade: www.blikonderwaterinleiden.nl\n\n
-Niels Schrieken: www.biorganized.com\n\n
-Tenslotte willen we iedereen alvast bedanken voor het gebruik van iMarineLife\n
-en de waarnemingen die we via de app mogen ontvangen.]]></string>
+    <string name="thanks"><![CDATA[Deze versie van de iMarineLife app is tot stand gekomen met de medewerking van enthousiaste vrijwilligers.\n\n\n\n
+De volgende mensen danken wij voor:\n\n\n
+- het leveren van foto\'s Aaf verkade, Silvia Waajen, Jef Driesen, Ellen Kop, Erik van Vessem, Berthold Raadsen en Wijnand Vlierhuis.\n\n\n
+- het schrijven van teksten door Aaf Verkade en Niels Schrieken\n\n\n
+- het bouwen van de interactieve mariene veldgids voor Android door Marjon Roodzant\n\n\n
+- en de initiatiefnemers Aaf Verkade, Kris Joosten, Duurzaam Leiden en Niels Schrieken.\n\n\n\n
+Aaf Verkade: www.onderwaterinleiden.nl\n\n
+Stichting RAVON: www.ravon.nl\n\n
+We willen iedereen alvast bedanken voor het gebruik van iMarineLife\n\n
+en de waarnemingen die we via de app ontvangen.]]></string>
 </resources>
