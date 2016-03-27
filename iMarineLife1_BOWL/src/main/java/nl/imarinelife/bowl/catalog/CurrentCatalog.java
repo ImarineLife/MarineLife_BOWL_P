@@ -77,7 +77,7 @@ public class CurrentCatalog extends Catalog {
 		
 		DATAVERSION_FIELDGUIDEANDSIGHTINGS = 5;
 		DATAVERSION_LOCATIONS = 5;
-		DATAVERSION_PROFILEPARTS = 5;
+		DATAVERSION_PROFILEPARTS = 6;
 
 		try {
 			versionName = ctx.getPackageManager().getPackageInfo(
@@ -484,7 +484,7 @@ public class CurrentCatalog extends Catalog {
 		case 1: 
 		case 2:
 		case 3:
-		case 4:
+		default:
 			Log.d(TAG,"onDataVersionUpgrade_ProfileParts");
 			Catalog catalog = LibApp.getInstance().getCurrentCatalog();
 			if (catalog != null) {

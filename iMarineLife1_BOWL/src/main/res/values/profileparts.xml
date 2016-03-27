@@ -2,6 +2,6 @@
 <resources>
     <string name="lopend"><![CDATA[Walking]]></string>
     <string name="snorkelend"><![CDATA[Snorkling]]></string>
-    <string name="luchttemp"><![CDATA[Visibility in meters]]></string>
+    <string name="luchttemp"><![CDATA[Air temperature]]></string>
     <string name="watertemp"><![CDATA[Water temperature]]></string>
 </resources>
