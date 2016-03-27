@@ -3,7 +3,7 @@
     <string name="app_name"><![CDATA[BOWL NL Zoet Leiden]]></string>
     <string name="project_name"><![CDATA[Blik Onderwater in Leiden (BOWL)]]></string>
     <string name="mail_body"><![CDATA[Automatisch verstuurd vanuit de iMarineLife App (NL Zoet iBOWL Leiden).]]></string>
-    <string name="mail_to"><![CDATA[info@imarinelife.com, nielsschrieken@gmail.com,bowl.waarnemingen@gmail.com,visreservaatleiden@gmail.com]]></string>
+    <string name="mail_to"><![CDATA[visreservaatleiden@gmail.com]]></string>
     <string name="mail_from"><![CDATA[mailer.imarinelife@gmail.com]]></string>
     <string name="mail_from_password"><![CDATA[D41k@ppj3]]></string>
     <string name="language"><![CDATA[nl]]></string>
@@ -24,8 +24,8 @@ Foto\'s van het onderwaterleven uit de Leidse grachten zijn altijd welkom.\n \n
 Stuur ze aan visreservaatleiden@gmail.com of plaats ze op het zoetwaterforum van stichting ANEMOON:\n\n
 http://www.anemoon.org/Mijn-Anemoon/Forum/aff/17.]]></string>
     <string name="thanks"><![CDATA[Deze versie van de iMarineLife app is tot stand gekomen met de medewerking van enthousiaste vrijwilligers.\n\n\n\n
-De volgende mensen danken wij voor:\n\n\n
-- het leveren van foto\'s Aaf verkade, Silvia Waajen, Jef Driesen, Ellen Kop, Erik van Vessem, Berthold Raadsen en Wijnand Vlierhuis.\n\n\n
+De volgende mensen en organisaties danken wij voor:\n\n\n
+- het leveren van foto\'s door Aaf verkade, Silvia Waajen, Jef Driesen, Ellen Kop, Erik van Vessem, Berthold Raadsen, Wijnand Vlierhuis en Vilda (https://vildaphoto.net).\n\n\n
 - het schrijven van teksten door Aaf Verkade en Niels Schrieken\n\n\n
 - het bouwen van de interactieve mariene veldgids voor Android door Marjon Roodzant\n\n\n
 - en de initiatiefnemers Aaf Verkade, Kris Joosten, Duurzaam Leiden en Niels Schrieken.\n\n\n\n
