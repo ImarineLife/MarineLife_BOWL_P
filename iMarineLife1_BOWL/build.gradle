@@ -15,8 +15,8 @@ android {
         applicationId "nl.imarinelife.bowl"
         minSdkVersion 12
         targetSdkVersion 22
-        versionCode 19
-        versionName "2.0"
+        versionCode 20
+        versionName "2.1"
     }
     signingConfigs {
         release {
